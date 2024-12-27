@@ -1,0 +1,46 @@
+// Here you can add other styles
+.dynamic-input {
+    width: 100%; /* ou outro valor desejado */
+}
+
+.dynamic-textarea {
+    width: 100%; /* ou outro valor desejado */
+    overflow: hidden; /* Para evitar scrollbars */
+    resize: none; /* Para evitar redimensionamento manual pelo usuário */
+}
+/* Defina variáveis CSS para temas claro e escuro */
+:root {
+    --icon-yellow: rgb(80, 80, 5);
+    --icon-red: red;
+  }
+  
+  [data-theme='dark'] {
+    --icon-yellow: rgb(199, 199, 37);
+    --icon-red: lightcoral;
+  }
+  
+  /* Adicione classes para estilos */
+  .icon-yellow {
+    color: var(--icon-yellow);
+    cursor: pointer;
+  }
+  
+  .icon-red {
+    color: var(--icon-red);
+    cursor: pointer;
+  }
+  
+  /* Define styles for light mode */
+ /*  
+.Toastify__toast--default {
+  background-color: #fff;
+  color: #000;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .Toastify__toast--default {
+      background-color: #333;
+      color: #fff;
+  }
+} */
